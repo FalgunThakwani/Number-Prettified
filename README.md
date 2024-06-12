@@ -1,10 +1,10 @@
 # Number-Prettified
-A console application for formatting numbers greater than 6 digits into human-readable representations, supporting millions, billions, and trillions. Leveraging NUnit for unit testing, ensuring reliability and accuracy in large-scale numeric formatting.
-Framework - .NET 6
-Language - C# 12
-Test Framework - Nunit
+A console application for formatting numbers greater than 6 digits into "prettified" representations, supporting millions, billions, and trillions.
+**Framework - .NET 6**
+**Language - C# 12**
+**Test Framework - Nunit**
 # Approach
-To solve this problem, my first step was to analyze the requirements and consider all possible edge cases. Once I had a clear understanding, I created a pseudo-code outline to structure the application. Initially, my approach relied heavily on traditional if-else statements to handle different scenarios. My plan involved converting the number into a string representation and extracting the digits before the decimal point. I tested my pseudo-code with both boundary cases and typical scenarios. After that when I was working to refactor the code, I observed a recurring pattern in the code, which could optimize it futher. This optimization helped reduce the repetition of code blocks and made the solution more concise. For testing, I chose to use the NUnit testing framework. I crafted a variety of test cases to validate the algorithm's behavior under different conditions. Additionally, I commented within the code for better understanding of the algorithm.
+To solve this problem, my first step was to analyze the requirements and consider all possible edge cases. Once I had a clear understanding, I created a pseudo-code outline to structure the application. Initially, my approach relied heavily on traditional if-else statements to handle different scenarios. My plan involved converting the number into a string representation and extracting the digits before the decimal point. I tested my pseudo-code with both boundary cases and typical scenarios. After that when I was working to refactor the code, I observed a pattern in the code, which would optimize the code further. This optimization reduced the repetition of code blocks and made the solution more concise. For testing, I chose to use the NUnit testing framework. I crafted a variety of test cases to validate the algorithm's behavior under different conditions. Additionally, I commented within the code for better understanding of the algorithm.
 # Assumptions:
 In developing this program, I made the following two assumptions:
 1) Only numbers greater than 6 digits are prettified. No "K" or "thousand" representation is used for smaller numbers.
